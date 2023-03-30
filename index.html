@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/3412c74b1e.js" crossorigin="anonymous"></script>
+    <title>Weather</title>
+</head>
+<body>
+    <div class="button">
+        <input type="text" id="search" placeholder="City Name" name="search">
+        <button type="submit" id="button1"><i class="fa fa-search"></i></button>
+    </div>
+    <div class="first">
+        <div class="left">
+            <table>
+                <tr>
+                    <td ><i id="a1" class="fa-solid fa-droplet"></i></td>
+                    <td id="humidity">10%</td>
+                </tr>
+                <tr>
+                    <td><i id="a2" class="fa-solid fa-wind"></i></td>
+                    <td id="wind">12m/s</td>
+                </tr>
+                <tr>
+                    <td><i id="a4" class="fa-solid fa-temperature-arrow-up"></i></td>
+                    <td id="max">39°C</td>
+                </tr>
+                <tr>
+                    <td><i id="a5" class="fa-solid fa-temperature-arrow-down"></i></td>
+                    <td id="min">19°C</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-gauge"></i></td>
+                    <td id="pressure">1023mb</td>
+                </tr>
+            </table>
+        </div>
+        <div class="middle">
+            <p id="name">Kathmandu, Nepal</p>
+            <img id="image" src="" alt="Cloud">
+            <div class="deg">
+                <p id="temperature">27°C</p>
+            </div>
+            
+            <p id="cloud">Clouds</p>
+            
+        </div>
+        <div class="right">
+            <li id="feelsLike">29°C</li>
+            <li id="date">2023/07/06</li>
+            <li id="day">Sunday</li>
+            <li id="time">20:23:40</li>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
